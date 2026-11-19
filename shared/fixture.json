@@ -1,0 +1,4535 @@
+{
+  "brand": "Vale Verde Dairy",
+  "product": "Rota Clara",
+  "demoToday": "2026-11-19",
+  "disclaimer": "Fictional data for a public portfolio. Not a real dairy, store, person, or ERP.",
+  "products": [
+    {
+      "sku": "VV-FRE-500",
+      "name": "Queijo Minas Frescal 500g",
+      "nameEn": "Minas fresh cheese 500g",
+      "category": "cheese",
+      "shelfLifeDays": 21,
+      "abc": "A",
+      "facings": 4,
+      "unitPriceCents": 1890,
+      "weightKg": 0.5
+    },
+    {
+      "sku": "VV-MUS-150",
+      "name": "Mussarela fatiada 150g",
+      "nameEn": "Sliced mozzarella 150g",
+      "category": "cheese",
+      "shelfLifeDays": 40,
+      "abc": "A",
+      "facings": 6,
+      "unitPriceCents": 950,
+      "weightKg": 0.15
+    },
+    {
+      "sku": "VV-PRA-400",
+      "name": "Queijo prato 400g",
+      "nameEn": "Prato cheese 400g",
+      "category": "cheese",
+      "shelfLifeDays": 50,
+      "abc": "B",
+      "facings": 3,
+      "unitPriceCents": 2200,
+      "weightKg": 0.4
+    },
+    {
+      "sku": "VV-MAN-200",
+      "name": "Manteiga com sal 200g",
+      "nameEn": "Salted butter 200g",
+      "category": "butter",
+      "shelfLifeDays": 120,
+      "abc": "A",
+      "facings": 5,
+      "unitPriceCents": 1140,
+      "weightKg": 0.2
+    },
+    {
+      "sku": "VV-MAN-200-U",
+      "name": "Manteiga sem sal 200g",
+      "nameEn": "Unsalted butter 200g",
+      "category": "butter",
+      "shelfLifeDays": 120,
+      "abc": "B",
+      "facings": 3,
+      "unitPriceCents": 1210,
+      "weightKg": 0.2
+    },
+    {
+      "sku": "VV-REQ-220",
+      "name": "Requeijão cremoso 220g",
+      "nameEn": "Creamy requeijão 220g",
+      "category": "requeijao",
+      "shelfLifeDays": 70,
+      "abc": "A",
+      "facings": 5,
+      "unitPriceCents": 890,
+      "weightKg": 0.22
+    },
+    {
+      "sku": "VV-REQ-180-L",
+      "name": "Requeijão light 180g",
+      "nameEn": "Light requeijão 180g",
+      "category": "requeijao",
+      "shelfLifeDays": 70,
+      "abc": "C",
+      "facings": 2,
+      "unitPriceCents": 940,
+      "weightKg": 0.18
+    },
+    {
+      "sku": "VV-BLM-200",
+      "name": "Bebida láctea morango 200ml",
+      "nameEn": "Strawberry dairy drink 200ml",
+      "category": "drink",
+      "shelfLifeDays": 150,
+      "abc": "A",
+      "facings": 8,
+      "unitPriceCents": 240,
+      "weightKg": 0.2
+    },
+    {
+      "sku": "VV-BLC-1000",
+      "name": "Bebida láctea chocolate 1L",
+      "nameEn": "Chocolate dairy drink 1L",
+      "category": "drink",
+      "shelfLifeDays": 150,
+      "abc": "B",
+      "facings": 4,
+      "unitPriceCents": 780,
+      "weightKg": 1.0
+    },
+    {
+      "sku": "VV-LEI-1000",
+      "name": "Leite integral UHT 1L",
+      "nameEn": "Whole UHT milk 1L",
+      "category": "milk",
+      "shelfLifeDays": 180,
+      "abc": "A",
+      "facings": 8,
+      "unitPriceCents": 490,
+      "weightKg": 1.03
+    },
+    {
+      "sku": "VV-LED-1000",
+      "name": "Leite desnatado UHT 1L",
+      "nameEn": "Skim UHT milk 1L",
+      "category": "milk",
+      "shelfLifeDays": 180,
+      "abc": "B",
+      "facings": 4,
+      "unitPriceCents": 510,
+      "weightKg": 1.03
+    },
+    {
+      "sku": "VV-LEZ-1000",
+      "name": "Leite zero lactose 1L",
+      "nameEn": "Lactose-free milk 1L",
+      "category": "milk",
+      "shelfLifeDays": 120,
+      "abc": "B",
+      "facings": 3,
+      "unitPriceCents": 670,
+      "weightKg": 1.03
+    }
+  ],
+  "people": [
+    {
+      "id": "promo_camila",
+      "name": "Camila Duarte",
+      "role": "promoter",
+      "routeName": "Serra Norte",
+      "email": "camila.duarte@vale-verde.example"
+    },
+    {
+      "id": "promo_henrique",
+      "name": "Henrique Lopes",
+      "role": "promoter",
+      "routeName": "Vale Central",
+      "email": "henrique.lopes@vale-verde.example"
+    },
+    {
+      "id": "promo_beatriz",
+      "name": "Beatriz Nunes",
+      "role": "promoter",
+      "routeName": "Rota Leste",
+      "email": "beatriz.nunes@vale-verde.example"
+    },
+    {
+      "id": "seller_otavio",
+      "name": "Otávio Lima",
+      "role": "seller",
+      "email": "otavio.lima@vale-verde.example"
+    },
+    {
+      "id": "seller_marina",
+      "name": "Marina Costa",
+      "role": "seller",
+      "email": "marina.costa@vale-verde.example"
+    },
+    {
+      "id": "manager_renata",
+      "name": "Renata Pacheco",
+      "role": "manager",
+      "routeName": "All routes",
+      "email": "renata.pacheco@vale-verde.example"
+    }
+  ],
+  "stores": [
+    {
+      "id": "store_serra_clara",
+      "name": "Mercado Serra Clara",
+      "city": "Serra Clara",
+      "address": "Rua das Vertentes, 120",
+      "abc": "A",
+      "keyAccount": true,
+      "sellerId": "seller_otavio",
+      "lat": -21.25,
+      "lng": -44.9,
+      "channel": "supermarket"
+    },
+    {
+      "id": "store_padaria_aurora",
+      "name": "Padaria Aurora",
+      "city": "Serra Clara",
+      "address": "Travessa do Pão, 45",
+      "abc": "C",
+      "keyAccount": false,
+      "sellerId": "seller_otavio",
+      "lat": -21.256,
+      "lng": -44.892,
+      "channel": "bakery"
+    },
+    {
+      "id": "store_emporio_flores",
+      "name": "Empório das Flores",
+      "city": "Ribeirão das Flores",
+      "address": "Avenida das Flores, 800",
+      "abc": "B",
+      "keyAccount": false,
+      "sellerId": "seller_otavio",
+      "lat": -21.31,
+      "lng": -44.86,
+      "channel": "emporium"
+    },
+    {
+      "id": "store_trevo",
+      "name": "Conveniência do Trevo",
+      "city": "Serra Clara",
+      "address": "Estrada do Trevo, s/n",
+      "abc": "C",
+      "keyAccount": false,
+      "sellerId": "seller_otavio",
+      "lat": -21.242,
+      "lng": -44.918,
+      "channel": "convenience"
+    },
+    {
+      "id": "store_super_ribeiro",
+      "name": "Super Ribeiro",
+      "city": "Ribeirão das Flores",
+      "address": "Rua Ribeiro de Cima, 310",
+      "abc": "A",
+      "keyAccount": true,
+      "sellerId": "seller_otavio",
+      "lat": -21.302,
+      "lng": -44.848,
+      "channel": "supermarket"
+    },
+    {
+      "id": "store_hortifruti",
+      "name": "Hortifruti Bela Serra",
+      "city": "Serra Clara",
+      "address": "Alameda Bela Serra, 77",
+      "abc": "B",
+      "keyAccount": false,
+      "sellerId": "seller_marina",
+      "lat": -21.261,
+      "lng": -44.905,
+      "channel": "grocery"
+    },
+    {
+      "id": "store_vila_aurora",
+      "name": "Mercado Vila Aurora",
+      "city": "Vila Aurora",
+      "address": "Praça da Vila, 12",
+      "abc": "B",
+      "keyAccount": false,
+      "sellerId": "seller_marina",
+      "lat": -21.22,
+      "lng": -44.94,
+      "channel": "supermarket"
+    },
+    {
+      "id": "store_atacado_porto",
+      "name": "Atacado Porto Leite",
+      "city": "Porto Leite",
+      "address": "Rodovia do Leite, km 3",
+      "abc": "A",
+      "keyAccount": true,
+      "sellerId": "seller_marina",
+      "lat": -21.18,
+      "lng": -44.8,
+      "channel": "cash_and_carry"
+    },
+    {
+      "id": "store_estrela",
+      "name": "Supermercado Estrela do Vale",
+      "city": "Porto Leite",
+      "address": "Rua da Estrela, 500",
+      "abc": "B",
+      "keyAccount": false,
+      "sellerId": "seller_marina",
+      "lat": -21.188,
+      "lng": -44.812,
+      "channel": "supermarket"
+    },
+    {
+      "id": "store_mini_nova",
+      "name": "Mini Mercado Vila Nova",
+      "city": "Vila Aurora",
+      "address": "Beco Novo, 8",
+      "abc": "C",
+      "keyAccount": false,
+      "sellerId": "seller_otavio",
+      "lat": -21.228,
+      "lng": -44.951,
+      "channel": "minimarket"
+    },
+    {
+      "id": "store_margarida",
+      "name": "Empório Santa Margarida",
+      "city": "Santa Margarida",
+      "address": "Largo Santa Margarida, 19",
+      "abc": "B",
+      "keyAccount": false,
+      "sellerId": "seller_marina",
+      "lat": -21.15,
+      "lng": -44.83,
+      "channel": "emporium"
+    },
+    {
+      "id": "store_km12",
+      "name": "Mercado do Km 12",
+      "city": "Km 12",
+      "address": "Estrada Municipal, km 12",
+      "abc": "C",
+      "keyAccount": false,
+      "sellerId": "seller_otavio",
+      "lat": -21.27,
+      "lng": -44.98,
+      "channel": "minimarket"
+    }
+  ],
+  "routes": [
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_mini_nova",
+      "weekday": 1,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_serra_clara",
+      "weekday": 1,
+      "shift": "morning",
+      "order": 2,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_hortifruti",
+      "weekday": 2,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_padaria_aurora",
+      "weekday": 3,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_serra_clara",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_padaria_aurora",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 2,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_emporio_flores",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 3,
+      "frequency": "biweekly",
+      "weekParity": 1
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_trevo",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 4,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_super_ribeiro",
+      "weekday": 4,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_hortifruti",
+      "weekday": 4,
+      "shift": "afternoon",
+      "order": 2,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_vila_aurora",
+      "weekday": 4,
+      "shift": "afternoon",
+      "order": 3,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_camila",
+      "storeId": "store_mini_nova",
+      "weekday": 5,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_atacado_porto",
+      "weekday": 1,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_estrela",
+      "weekday": 2,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_margarida",
+      "weekday": 3,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_atacado_porto",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_estrela",
+      "weekday": 4,
+      "shift": "morning",
+      "order": 2,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_margarida",
+      "weekday": 4,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_henrique",
+      "storeId": "store_atacado_porto",
+      "weekday": 5,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_beatriz",
+      "storeId": "store_km12",
+      "weekday": 1,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_beatriz",
+      "storeId": "store_km12",
+      "weekday": 4,
+      "shift": "afternoon",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    },
+    {
+      "promoterId": "promo_beatriz",
+      "storeId": "store_km12",
+      "weekday": 5,
+      "shift": "morning",
+      "order": 1,
+      "frequency": "weekly",
+      "weekParity": 0
+    }
+  ],
+  "invoices": [
+    {
+      "id": "NF-260001",
+      "date": "2026-10-22",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 32,
+          "unitPriceCents": 1890,
+          "revenueCents": 60480
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 64,
+          "unitPriceCents": 950,
+          "revenueCents": 60800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 24,
+          "unitPriceCents": 2200,
+          "revenueCents": 52800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 48,
+          "unitPriceCents": 1140,
+          "revenueCents": 54720
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 24,
+          "unitPriceCents": 1210,
+          "revenueCents": 29040
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 48,
+          "unitPriceCents": 890,
+          "revenueCents": 42720
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 16,
+          "unitPriceCents": 940,
+          "revenueCents": 15040
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 96,
+          "unitPriceCents": 240,
+          "revenueCents": 23040
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 32,
+          "unitPriceCents": 780,
+          "revenueCents": 24960
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 80,
+          "unitPriceCents": 490,
+          "revenueCents": 39200
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 40,
+          "unitPriceCents": 510,
+          "revenueCents": 20400
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 32,
+          "unitPriceCents": 670,
+          "revenueCents": 21440
+        }
+      ]
+    },
+    {
+      "id": "NF-260006",
+      "date": "2026-10-22",
+      "storeId": "store_super_ribeiro",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 28,
+          "unitPriceCents": 1890,
+          "revenueCents": 52920
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 56,
+          "unitPriceCents": 950,
+          "revenueCents": 53200
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 21,
+          "unitPriceCents": 2200,
+          "revenueCents": 46200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 42,
+          "unitPriceCents": 1140,
+          "revenueCents": 47880
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 21,
+          "unitPriceCents": 1210,
+          "revenueCents": 25410
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 42,
+          "unitPriceCents": 890,
+          "revenueCents": 37380
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 14,
+          "unitPriceCents": 940,
+          "revenueCents": 13160
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 84,
+          "unitPriceCents": 240,
+          "revenueCents": 20160
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 28,
+          "unitPriceCents": 780,
+          "revenueCents": 21840
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 70,
+          "unitPriceCents": 490,
+          "revenueCents": 34300
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 35,
+          "unitPriceCents": 510,
+          "revenueCents": 17850
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 28,
+          "unitPriceCents": 670,
+          "revenueCents": 18760
+        }
+      ]
+    },
+    {
+      "id": "NF-260011",
+      "date": "2026-10-22",
+      "storeId": "store_atacado_porto",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 44,
+          "unitPriceCents": 1890,
+          "revenueCents": 83160
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 88,
+          "unitPriceCents": 950,
+          "revenueCents": 83600
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 33,
+          "unitPriceCents": 2200,
+          "revenueCents": 72600
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 66,
+          "unitPriceCents": 1140,
+          "revenueCents": 75240
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 33,
+          "unitPriceCents": 1210,
+          "revenueCents": 39930
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 66,
+          "unitPriceCents": 890,
+          "revenueCents": 58740
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 22,
+          "unitPriceCents": 940,
+          "revenueCents": 20680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 132,
+          "unitPriceCents": 240,
+          "revenueCents": 31680
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 44,
+          "unitPriceCents": 780,
+          "revenueCents": 34320
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 110,
+          "unitPriceCents": 490,
+          "revenueCents": 53900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 55,
+          "unitPriceCents": 510,
+          "revenueCents": 28050
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 44,
+          "unitPriceCents": 670,
+          "revenueCents": 29480
+        }
+      ]
+    },
+    {
+      "id": "NF-260016",
+      "date": "2026-10-22",
+      "storeId": "store_estrela",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 12,
+          "unitPriceCents": 2200,
+          "revenueCents": 26400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 12,
+          "unitPriceCents": 1210,
+          "revenueCents": 14520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 8,
+          "unitPriceCents": 940,
+          "revenueCents": 7520
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 20,
+          "unitPriceCents": 510,
+          "revenueCents": 10200
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260021",
+      "date": "2026-10-22",
+      "storeId": "store_hortifruti",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260026",
+      "date": "2026-10-22",
+      "storeId": "store_emporio_flores",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 12,
+          "unitPriceCents": 1890,
+          "revenueCents": 22680
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260031",
+      "date": "2026-10-22",
+      "storeId": "store_margarida",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260036",
+      "date": "2026-10-22",
+      "storeId": "store_vila_aurora",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 8,
+          "unitPriceCents": 1890,
+          "revenueCents": 15120
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260041",
+      "date": "2026-10-22",
+      "storeId": "store_mini_nova",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260046",
+      "date": "2026-10-22",
+      "storeId": "store_padaria_aurora",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 3,
+          "unitPriceCents": 1210,
+          "revenueCents": 3630
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        }
+      ]
+    },
+    {
+      "id": "NF-260051",
+      "date": "2026-10-22",
+      "storeId": "store_trevo",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 4,
+          "unitPriceCents": 780,
+          "revenueCents": 3120
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 5,
+          "unitPriceCents": 510,
+          "revenueCents": 2550
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260056",
+      "date": "2026-10-22",
+      "storeId": "store_km12",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260002",
+      "date": "2026-10-29",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 32,
+          "unitPriceCents": 1890,
+          "revenueCents": 60480
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 64,
+          "unitPriceCents": 950,
+          "revenueCents": 60800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 24,
+          "unitPriceCents": 2200,
+          "revenueCents": 52800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 48,
+          "unitPriceCents": 1140,
+          "revenueCents": 54720
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 24,
+          "unitPriceCents": 1210,
+          "revenueCents": 29040
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 48,
+          "unitPriceCents": 890,
+          "revenueCents": 42720
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 16,
+          "unitPriceCents": 940,
+          "revenueCents": 15040
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 96,
+          "unitPriceCents": 240,
+          "revenueCents": 23040
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 32,
+          "unitPriceCents": 780,
+          "revenueCents": 24960
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 80,
+          "unitPriceCents": 490,
+          "revenueCents": 39200
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 40,
+          "unitPriceCents": 510,
+          "revenueCents": 20400
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 32,
+          "unitPriceCents": 670,
+          "revenueCents": 21440
+        }
+      ]
+    },
+    {
+      "id": "NF-260007",
+      "date": "2026-10-29",
+      "storeId": "store_super_ribeiro",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 28,
+          "unitPriceCents": 1890,
+          "revenueCents": 52920
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 56,
+          "unitPriceCents": 950,
+          "revenueCents": 53200
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 21,
+          "unitPriceCents": 2200,
+          "revenueCents": 46200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 42,
+          "unitPriceCents": 1140,
+          "revenueCents": 47880
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 21,
+          "unitPriceCents": 1210,
+          "revenueCents": 25410
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 42,
+          "unitPriceCents": 890,
+          "revenueCents": 37380
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 14,
+          "unitPriceCents": 940,
+          "revenueCents": 13160
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 84,
+          "unitPriceCents": 240,
+          "revenueCents": 20160
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 28,
+          "unitPriceCents": 780,
+          "revenueCents": 21840
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 70,
+          "unitPriceCents": 490,
+          "revenueCents": 34300
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 35,
+          "unitPriceCents": 510,
+          "revenueCents": 17850
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 28,
+          "unitPriceCents": 670,
+          "revenueCents": 18760
+        }
+      ]
+    },
+    {
+      "id": "NF-260012",
+      "date": "2026-10-29",
+      "storeId": "store_atacado_porto",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 44,
+          "unitPriceCents": 1890,
+          "revenueCents": 83160
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 88,
+          "unitPriceCents": 950,
+          "revenueCents": 83600
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 33,
+          "unitPriceCents": 2200,
+          "revenueCents": 72600
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 66,
+          "unitPriceCents": 1140,
+          "revenueCents": 75240
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 33,
+          "unitPriceCents": 1210,
+          "revenueCents": 39930
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 66,
+          "unitPriceCents": 890,
+          "revenueCents": 58740
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 22,
+          "unitPriceCents": 940,
+          "revenueCents": 20680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 132,
+          "unitPriceCents": 240,
+          "revenueCents": 31680
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 44,
+          "unitPriceCents": 780,
+          "revenueCents": 34320
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 110,
+          "unitPriceCents": 490,
+          "revenueCents": 53900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 55,
+          "unitPriceCents": 510,
+          "revenueCents": 28050
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 44,
+          "unitPriceCents": 670,
+          "revenueCents": 29480
+        }
+      ]
+    },
+    {
+      "id": "NF-260017",
+      "date": "2026-10-29",
+      "storeId": "store_estrela",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 12,
+          "unitPriceCents": 2200,
+          "revenueCents": 26400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 12,
+          "unitPriceCents": 1210,
+          "revenueCents": 14520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 8,
+          "unitPriceCents": 940,
+          "revenueCents": 7520
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 20,
+          "unitPriceCents": 510,
+          "revenueCents": 10200
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260022",
+      "date": "2026-10-29",
+      "storeId": "store_hortifruti",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260027",
+      "date": "2026-10-29",
+      "storeId": "store_emporio_flores",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 12,
+          "unitPriceCents": 1890,
+          "revenueCents": 22680
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260032",
+      "date": "2026-10-29",
+      "storeId": "store_margarida",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260037",
+      "date": "2026-10-29",
+      "storeId": "store_vila_aurora",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 8,
+          "unitPriceCents": 1890,
+          "revenueCents": 15120
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260042",
+      "date": "2026-10-29",
+      "storeId": "store_mini_nova",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260047",
+      "date": "2026-10-29",
+      "storeId": "store_padaria_aurora",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 3,
+          "unitPriceCents": 1210,
+          "revenueCents": 3630
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        }
+      ]
+    },
+    {
+      "id": "NF-260052",
+      "date": "2026-10-29",
+      "storeId": "store_trevo",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 4,
+          "unitPriceCents": 780,
+          "revenueCents": 3120
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 5,
+          "unitPriceCents": 510,
+          "revenueCents": 2550
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260057",
+      "date": "2026-10-29",
+      "storeId": "store_km12",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260061",
+      "date": "2026-11-04",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 32,
+          "unitPriceCents": 1890,
+          "revenueCents": 60480
+        }
+      ]
+    },
+    {
+      "id": "NF-260003",
+      "date": "2026-11-05",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 64,
+          "unitPriceCents": 950,
+          "revenueCents": 60800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 24,
+          "unitPriceCents": 2200,
+          "revenueCents": 52800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 48,
+          "unitPriceCents": 1140,
+          "revenueCents": 54720
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 24,
+          "unitPriceCents": 1210,
+          "revenueCents": 29040
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 48,
+          "unitPriceCents": 890,
+          "revenueCents": 42720
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 16,
+          "unitPriceCents": 940,
+          "revenueCents": 15040
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 96,
+          "unitPriceCents": 240,
+          "revenueCents": 23040
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 32,
+          "unitPriceCents": 780,
+          "revenueCents": 24960
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 80,
+          "unitPriceCents": 490,
+          "revenueCents": 39200
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 40,
+          "unitPriceCents": 510,
+          "revenueCents": 20400
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 32,
+          "unitPriceCents": 670,
+          "revenueCents": 21440
+        }
+      ]
+    },
+    {
+      "id": "NF-260008",
+      "date": "2026-11-05",
+      "storeId": "store_super_ribeiro",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 28,
+          "unitPriceCents": 1890,
+          "revenueCents": 52920
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 56,
+          "unitPriceCents": 950,
+          "revenueCents": 53200
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 21,
+          "unitPriceCents": 2200,
+          "revenueCents": 46200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 42,
+          "unitPriceCents": 1140,
+          "revenueCents": 47880
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 21,
+          "unitPriceCents": 1210,
+          "revenueCents": 25410
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 42,
+          "unitPriceCents": 890,
+          "revenueCents": 37380
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 14,
+          "unitPriceCents": 940,
+          "revenueCents": 13160
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 84,
+          "unitPriceCents": 240,
+          "revenueCents": 20160
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 28,
+          "unitPriceCents": 780,
+          "revenueCents": 21840
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 70,
+          "unitPriceCents": 490,
+          "revenueCents": 34300
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 35,
+          "unitPriceCents": 510,
+          "revenueCents": 17850
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 28,
+          "unitPriceCents": 670,
+          "revenueCents": 18760
+        }
+      ]
+    },
+    {
+      "id": "NF-260013",
+      "date": "2026-11-05",
+      "storeId": "store_atacado_porto",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 44,
+          "unitPriceCents": 1890,
+          "revenueCents": 83160
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 88,
+          "unitPriceCents": 950,
+          "revenueCents": 83600
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 33,
+          "unitPriceCents": 2200,
+          "revenueCents": 72600
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 66,
+          "unitPriceCents": 1140,
+          "revenueCents": 75240
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 33,
+          "unitPriceCents": 1210,
+          "revenueCents": 39930
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 66,
+          "unitPriceCents": 890,
+          "revenueCents": 58740
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 22,
+          "unitPriceCents": 940,
+          "revenueCents": 20680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 132,
+          "unitPriceCents": 240,
+          "revenueCents": 31680
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 44,
+          "unitPriceCents": 780,
+          "revenueCents": 34320
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 110,
+          "unitPriceCents": 490,
+          "revenueCents": 53900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 55,
+          "unitPriceCents": 510,
+          "revenueCents": 28050
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 44,
+          "unitPriceCents": 670,
+          "revenueCents": 29480
+        }
+      ]
+    },
+    {
+      "id": "NF-260018",
+      "date": "2026-11-05",
+      "storeId": "store_estrela",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 12,
+          "unitPriceCents": 2200,
+          "revenueCents": 26400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 12,
+          "unitPriceCents": 1210,
+          "revenueCents": 14520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 8,
+          "unitPriceCents": 940,
+          "revenueCents": 7520
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 20,
+          "unitPriceCents": 510,
+          "revenueCents": 10200
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260023",
+      "date": "2026-11-05",
+      "storeId": "store_hortifruti",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260028",
+      "date": "2026-11-05",
+      "storeId": "store_emporio_flores",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 12,
+          "unitPriceCents": 1890,
+          "revenueCents": 22680
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260033",
+      "date": "2026-11-05",
+      "storeId": "store_margarida",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260038",
+      "date": "2026-11-05",
+      "storeId": "store_vila_aurora",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 8,
+          "unitPriceCents": 1890,
+          "revenueCents": 15120
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260043",
+      "date": "2026-11-05",
+      "storeId": "store_mini_nova",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260048",
+      "date": "2026-11-05",
+      "storeId": "store_padaria_aurora",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 3,
+          "unitPriceCents": 1210,
+          "revenueCents": 3630
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        }
+      ]
+    },
+    {
+      "id": "NF-260053",
+      "date": "2026-11-05",
+      "storeId": "store_trevo",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 4,
+          "unitPriceCents": 780,
+          "revenueCents": 3120
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 5,
+          "unitPriceCents": 510,
+          "revenueCents": 2550
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260058",
+      "date": "2026-11-05",
+      "storeId": "store_km12",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260004",
+      "date": "2026-11-12",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 64,
+          "unitPriceCents": 950,
+          "revenueCents": 60800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 24,
+          "unitPriceCents": 2200,
+          "revenueCents": 52800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 48,
+          "unitPriceCents": 1140,
+          "revenueCents": 54720
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 24,
+          "unitPriceCents": 1210,
+          "revenueCents": 29040
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 48,
+          "unitPriceCents": 890,
+          "revenueCents": 42720
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 16,
+          "unitPriceCents": 940,
+          "revenueCents": 15040
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 96,
+          "unitPriceCents": 240,
+          "revenueCents": 23040
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 32,
+          "unitPriceCents": 780,
+          "revenueCents": 24960
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 80,
+          "unitPriceCents": 490,
+          "revenueCents": 39200
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 40,
+          "unitPriceCents": 510,
+          "revenueCents": 20400
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 32,
+          "unitPriceCents": 670,
+          "revenueCents": 21440
+        }
+      ]
+    },
+    {
+      "id": "NF-260009",
+      "date": "2026-11-12",
+      "storeId": "store_super_ribeiro",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 28,
+          "unitPriceCents": 1890,
+          "revenueCents": 52920
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 56,
+          "unitPriceCents": 950,
+          "revenueCents": 53200
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 21,
+          "unitPriceCents": 2200,
+          "revenueCents": 46200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 42,
+          "unitPriceCents": 1140,
+          "revenueCents": 47880
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 21,
+          "unitPriceCents": 1210,
+          "revenueCents": 25410
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 42,
+          "unitPriceCents": 890,
+          "revenueCents": 37380
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 14,
+          "unitPriceCents": 940,
+          "revenueCents": 13160
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 84,
+          "unitPriceCents": 240,
+          "revenueCents": 20160
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 28,
+          "unitPriceCents": 780,
+          "revenueCents": 21840
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 70,
+          "unitPriceCents": 490,
+          "revenueCents": 34300
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 35,
+          "unitPriceCents": 510,
+          "revenueCents": 17850
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 28,
+          "unitPriceCents": 670,
+          "revenueCents": 18760
+        }
+      ]
+    },
+    {
+      "id": "NF-260014",
+      "date": "2026-11-12",
+      "storeId": "store_atacado_porto",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 44,
+          "unitPriceCents": 1890,
+          "revenueCents": 83160
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 88,
+          "unitPriceCents": 950,
+          "revenueCents": 83600
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 33,
+          "unitPriceCents": 2200,
+          "revenueCents": 72600
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 66,
+          "unitPriceCents": 1140,
+          "revenueCents": 75240
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 33,
+          "unitPriceCents": 1210,
+          "revenueCents": 39930
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 66,
+          "unitPriceCents": 890,
+          "revenueCents": 58740
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 22,
+          "unitPriceCents": 940,
+          "revenueCents": 20680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 132,
+          "unitPriceCents": 240,
+          "revenueCents": 31680
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 44,
+          "unitPriceCents": 780,
+          "revenueCents": 34320
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 110,
+          "unitPriceCents": 490,
+          "revenueCents": 53900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 55,
+          "unitPriceCents": 510,
+          "revenueCents": 28050
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 44,
+          "unitPriceCents": 670,
+          "revenueCents": 29480
+        }
+      ]
+    },
+    {
+      "id": "NF-260019",
+      "date": "2026-11-12",
+      "storeId": "store_estrela",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 12,
+          "unitPriceCents": 2200,
+          "revenueCents": 26400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 12,
+          "unitPriceCents": 1210,
+          "revenueCents": 14520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 8,
+          "unitPriceCents": 940,
+          "revenueCents": 7520
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 20,
+          "unitPriceCents": 510,
+          "revenueCents": 10200
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260024",
+      "date": "2026-11-12",
+      "storeId": "store_hortifruti",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260029",
+      "date": "2026-11-12",
+      "storeId": "store_emporio_flores",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 12,
+          "unitPriceCents": 1890,
+          "revenueCents": 22680
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260034",
+      "date": "2026-11-12",
+      "storeId": "store_margarida",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260039",
+      "date": "2026-11-12",
+      "storeId": "store_vila_aurora",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 8,
+          "unitPriceCents": 1890,
+          "revenueCents": 15120
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260044",
+      "date": "2026-11-12",
+      "storeId": "store_mini_nova",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260049",
+      "date": "2026-11-12",
+      "storeId": "store_padaria_aurora",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 3,
+          "unitPriceCents": 1210,
+          "revenueCents": 3630
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        }
+      ]
+    },
+    {
+      "id": "NF-260054",
+      "date": "2026-11-12",
+      "storeId": "store_trevo",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 4,
+          "unitPriceCents": 780,
+          "revenueCents": 3120
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 5,
+          "unitPriceCents": 510,
+          "revenueCents": 2550
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260059",
+      "date": "2026-11-12",
+      "storeId": "store_km12",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260005",
+      "date": "2026-11-18",
+      "storeId": "store_serra_clara",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 64,
+          "unitPriceCents": 950,
+          "revenueCents": 60800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 24,
+          "unitPriceCents": 2200,
+          "revenueCents": 52800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 48,
+          "unitPriceCents": 1140,
+          "revenueCents": 54720
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 24,
+          "unitPriceCents": 1210,
+          "revenueCents": 29040
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 48,
+          "unitPriceCents": 890,
+          "revenueCents": 42720
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 16,
+          "unitPriceCents": 940,
+          "revenueCents": 15040
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 96,
+          "unitPriceCents": 240,
+          "revenueCents": 23040
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 32,
+          "unitPriceCents": 780,
+          "revenueCents": 24960
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 80,
+          "unitPriceCents": 490,
+          "revenueCents": 39200
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 40,
+          "unitPriceCents": 510,
+          "revenueCents": 20400
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 32,
+          "unitPriceCents": 670,
+          "revenueCents": 21440
+        }
+      ]
+    },
+    {
+      "id": "NF-260010",
+      "date": "2026-11-18",
+      "storeId": "store_super_ribeiro",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 28,
+          "unitPriceCents": 1890,
+          "revenueCents": 52920
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 56,
+          "unitPriceCents": 950,
+          "revenueCents": 53200
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 21,
+          "unitPriceCents": 2200,
+          "revenueCents": 46200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 42,
+          "unitPriceCents": 1140,
+          "revenueCents": 47880
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 21,
+          "unitPriceCents": 1210,
+          "revenueCents": 25410
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 42,
+          "unitPriceCents": 890,
+          "revenueCents": 37380
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 14,
+          "unitPriceCents": 940,
+          "revenueCents": 13160
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 84,
+          "unitPriceCents": 240,
+          "revenueCents": 20160
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 28,
+          "unitPriceCents": 780,
+          "revenueCents": 21840
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 70,
+          "unitPriceCents": 490,
+          "revenueCents": 34300
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 35,
+          "unitPriceCents": 510,
+          "revenueCents": 17850
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 28,
+          "unitPriceCents": 670,
+          "revenueCents": 18760
+        }
+      ]
+    },
+    {
+      "id": "NF-260015",
+      "date": "2026-11-18",
+      "storeId": "store_atacado_porto",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 44,
+          "unitPriceCents": 1890,
+          "revenueCents": 83160
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 88,
+          "unitPriceCents": 950,
+          "revenueCents": 83600
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 33,
+          "unitPriceCents": 2200,
+          "revenueCents": 72600
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 66,
+          "unitPriceCents": 1140,
+          "revenueCents": 75240
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 33,
+          "unitPriceCents": 1210,
+          "revenueCents": 39930
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 66,
+          "unitPriceCents": 890,
+          "revenueCents": 58740
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 22,
+          "unitPriceCents": 940,
+          "revenueCents": 20680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 132,
+          "unitPriceCents": 240,
+          "revenueCents": 31680
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 44,
+          "unitPriceCents": 780,
+          "revenueCents": 34320
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 110,
+          "unitPriceCents": 490,
+          "revenueCents": 53900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 55,
+          "unitPriceCents": 510,
+          "revenueCents": 28050
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 44,
+          "unitPriceCents": 670,
+          "revenueCents": 29480
+        }
+      ]
+    },
+    {
+      "id": "NF-260020",
+      "date": "2026-11-18",
+      "storeId": "store_estrela",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 12,
+          "unitPriceCents": 2200,
+          "revenueCents": 26400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 12,
+          "unitPriceCents": 1210,
+          "revenueCents": 14520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-REQ-180-L",
+          "qty": 8,
+          "unitPriceCents": 940,
+          "revenueCents": 7520
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 20,
+          "unitPriceCents": 510,
+          "revenueCents": 10200
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260025",
+      "date": "2026-11-18",
+      "storeId": "store_hortifruti",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 16,
+          "unitPriceCents": 1890,
+          "revenueCents": 30240
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 32,
+          "unitPriceCents": 950,
+          "revenueCents": 30400
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 24,
+          "unitPriceCents": 1140,
+          "revenueCents": 27360
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 24,
+          "unitPriceCents": 890,
+          "revenueCents": 21360
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 48,
+          "unitPriceCents": 240,
+          "revenueCents": 11520
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 16,
+          "unitPriceCents": 780,
+          "revenueCents": 12480
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 40,
+          "unitPriceCents": 490,
+          "revenueCents": 19600
+        },
+        {
+          "sku": "VV-LEZ-1000",
+          "qty": 16,
+          "unitPriceCents": 670,
+          "revenueCents": 10720
+        }
+      ]
+    },
+    {
+      "id": "NF-260030",
+      "date": "2026-11-18",
+      "storeId": "store_emporio_flores",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 12,
+          "unitPriceCents": 1890,
+          "revenueCents": 22680
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260035",
+      "date": "2026-11-18",
+      "storeId": "store_margarida",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 24,
+          "unitPriceCents": 950,
+          "revenueCents": 22800
+        },
+        {
+          "sku": "VV-PRA-400",
+          "qty": 9,
+          "unitPriceCents": 2200,
+          "revenueCents": 19800
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 18,
+          "unitPriceCents": 1140,
+          "revenueCents": 20520
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 18,
+          "unitPriceCents": 890,
+          "revenueCents": 16020
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 36,
+          "unitPriceCents": 240,
+          "revenueCents": 8640
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 30,
+          "unitPriceCents": 490,
+          "revenueCents": 14700
+        }
+      ]
+    },
+    {
+      "id": "NF-260040",
+      "date": "2026-11-18",
+      "storeId": "store_vila_aurora",
+      "sellerId": "seller_marina",
+      "lines": [
+        {
+          "sku": "VV-FRE-500",
+          "qty": 8,
+          "unitPriceCents": 1890,
+          "revenueCents": 15120
+        },
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260045",
+      "date": "2026-11-18",
+      "storeId": "store_mini_nova",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MUS-150",
+          "qty": 16,
+          "unitPriceCents": 950,
+          "revenueCents": 15200
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 12,
+          "unitPriceCents": 1140,
+          "revenueCents": 13680
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 12,
+          "unitPriceCents": 890,
+          "revenueCents": 10680
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 24,
+          "unitPriceCents": 240,
+          "revenueCents": 5760
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 20,
+          "unitPriceCents": 490,
+          "revenueCents": 9800
+        }
+      ]
+    },
+    {
+      "id": "NF-260050",
+      "date": "2026-11-18",
+      "storeId": "store_padaria_aurora",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-MAN-200-U",
+          "qty": 3,
+          "unitPriceCents": 1210,
+          "revenueCents": 3630
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        }
+      ]
+    },
+    {
+      "id": "NF-260055",
+      "date": "2026-11-18",
+      "storeId": "store_trevo",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-BLC-1000",
+          "qty": 4,
+          "unitPriceCents": 780,
+          "revenueCents": 3120
+        },
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-LED-1000",
+          "qty": 5,
+          "unitPriceCents": 510,
+          "revenueCents": 2550
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    },
+    {
+      "id": "NF-260060",
+      "date": "2026-11-18",
+      "storeId": "store_km12",
+      "sellerId": "seller_otavio",
+      "lines": [
+        {
+          "sku": "VV-LEI-1000",
+          "qty": 10,
+          "unitPriceCents": 490,
+          "revenueCents": 4900
+        },
+        {
+          "sku": "VV-MAN-200",
+          "qty": 6,
+          "unitPriceCents": 1140,
+          "revenueCents": 6840
+        },
+        {
+          "sku": "VV-BLM-200",
+          "qty": 12,
+          "unitPriceCents": 240,
+          "revenueCents": 2880
+        },
+        {
+          "sku": "VV-REQ-220",
+          "qty": 6,
+          "unitPriceCents": 890,
+          "revenueCents": 5340
+        }
+      ]
+    }
+  ],
+  "stockouts": [
+    {
+      "id": "so-01",
+      "date": "2026-11-16",
+      "storeId": "store_serra_clara",
+      "sku": "VV-LEZ-1000",
+      "reason": "supplier"
+    },
+    {
+      "id": "so-02",
+      "date": "2026-11-10",
+      "storeId": "store_serra_clara",
+      "sku": "VV-FRE-500",
+      "reason": "shelf"
+    },
+    {
+      "id": "so-03",
+      "date": "2026-11-17",
+      "storeId": "store_hortifruti",
+      "sku": "VV-BLM-200",
+      "reason": "shelf"
+    },
+    {
+      "id": "so-04",
+      "date": "2026-11-15",
+      "storeId": "store_hortifruti",
+      "sku": "VV-REQ-220",
+      "reason": "space"
+    },
+    {
+      "id": "so-05",
+      "date": "2026-11-12",
+      "storeId": "store_hortifruti",
+      "sku": "VV-MAN-200",
+      "reason": "price"
+    },
+    {
+      "id": "so-06",
+      "date": "2026-11-18",
+      "storeId": "store_vila_aurora",
+      "sku": "VV-REQ-220",
+      "reason": "no_order"
+    },
+    {
+      "id": "so-07",
+      "date": "2026-11-11",
+      "storeId": "store_emporio_flores",
+      "sku": "VV-PRA-400",
+      "reason": "expiry"
+    },
+    {
+      "id": "so-old",
+      "date": "2026-10-20",
+      "storeId": "store_serra_clara",
+      "sku": "VV-LEI-1000",
+      "reason": "supplier"
+    }
+  ],
+  "missedStoresBeforeToday": [
+    "store_vila_aurora"
+  ],
+  "missedStopIds": [
+    "2026-11-16:promo_henrique:store_atacado_porto"
+  ],
+  "shelfPresets": {
+    "store_serra_clara": {
+      "VV-FRE-500": {
+        "onHand": 3,
+        "facings": 2
+      },
+      "VV-LEZ-1000": {
+        "onHand": 0,
+        "facings": 0,
+        "reason": "supplier"
+      }
+    },
+    "store_hortifruti": {
+      "VV-BLM-200": {
+        "onHand": 0,
+        "facings": 0,
+        "reason": "shelf"
+      },
+      "VV-REQ-220": {
+        "onHand": 2,
+        "facings": 2,
+        "reason": "space"
+      }
+    }
+  },
+  "visits": [
+    {
+      "id": "vis_2026-10-22:promo_camila:store_serra_clara",
+      "stopId": "2026-10-22:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_camila:store_padaria_aurora",
+      "stopId": "2026-10-22:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_camila:store_emporio_flores",
+      "stopId": "2026-10-22:promo_camila:store_emporio_flores",
+      "storeId": "store_emporio_flores",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_camila:store_trevo",
+      "stopId": "2026-10-22:promo_camila:store_trevo",
+      "storeId": "store_trevo",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_camila:store_super_ribeiro",
+      "stopId": "2026-10-22:promo_camila:store_super_ribeiro",
+      "storeId": "store_super_ribeiro",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_camila:store_hortifruti",
+      "stopId": "2026-10-22:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_henrique:store_atacado_porto",
+      "stopId": "2026-10-22:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_henrique:store_estrela",
+      "stopId": "2026-10-22:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_henrique:store_margarida",
+      "stopId": "2026-10-22:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-22:promo_beatriz:store_km12",
+      "stopId": "2026-10-22:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-10-22",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-23:promo_camila:store_mini_nova",
+      "stopId": "2026-10-23:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-10-23",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-23:promo_henrique:store_atacado_porto",
+      "stopId": "2026-10-23:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-23",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-23:promo_beatriz:store_km12",
+      "stopId": "2026-10-23:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-10-23",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-26:promo_camila:store_mini_nova",
+      "stopId": "2026-10-26:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-10-26",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-26:promo_camila:store_serra_clara",
+      "stopId": "2026-10-26:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-10-26",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-26:promo_henrique:store_atacado_porto",
+      "stopId": "2026-10-26:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-26",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-26:promo_beatriz:store_km12",
+      "stopId": "2026-10-26:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-10-26",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-27:promo_camila:store_hortifruti",
+      "stopId": "2026-10-27:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-10-27",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-27:promo_henrique:store_estrela",
+      "stopId": "2026-10-27:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-27",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-28:promo_camila:store_padaria_aurora",
+      "stopId": "2026-10-28:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-10-28",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-28:promo_henrique:store_margarida",
+      "stopId": "2026-10-28:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-28",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_camila:store_serra_clara",
+      "stopId": "2026-10-29:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_camila:store_padaria_aurora",
+      "stopId": "2026-10-29:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_camila:store_trevo",
+      "stopId": "2026-10-29:promo_camila:store_trevo",
+      "storeId": "store_trevo",
+      "promoterId": "promo_camila",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_camila:store_super_ribeiro",
+      "stopId": "2026-10-29:promo_camila:store_super_ribeiro",
+      "storeId": "store_super_ribeiro",
+      "promoterId": "promo_camila",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_camila:store_hortifruti",
+      "stopId": "2026-10-29:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_henrique:store_atacado_porto",
+      "stopId": "2026-10-29:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_henrique:store_estrela",
+      "stopId": "2026-10-29:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_henrique:store_margarida",
+      "stopId": "2026-10-29:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-29:promo_beatriz:store_km12",
+      "stopId": "2026-10-29:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-10-29",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-30:promo_camila:store_mini_nova",
+      "stopId": "2026-10-30:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-10-30",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-30:promo_henrique:store_atacado_porto",
+      "stopId": "2026-10-30:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-10-30",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-10-30:promo_beatriz:store_km12",
+      "stopId": "2026-10-30:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-10-30",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-02:promo_camila:store_mini_nova",
+      "stopId": "2026-11-02:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-11-02",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-02:promo_camila:store_serra_clara",
+      "stopId": "2026-11-02:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-11-02",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-02:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-02:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-02",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-02:promo_beatriz:store_km12",
+      "stopId": "2026-11-02:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-02",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-03:promo_camila:store_hortifruti",
+      "stopId": "2026-11-03:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-11-03",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-03:promo_henrique:store_estrela",
+      "stopId": "2026-11-03:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-03",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-04:promo_camila:store_padaria_aurora",
+      "stopId": "2026-11-04:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-11-04",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-04:promo_henrique:store_margarida",
+      "stopId": "2026-11-04:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-04",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_serra_clara",
+      "stopId": "2026-11-05:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_padaria_aurora",
+      "stopId": "2026-11-05:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_emporio_flores",
+      "stopId": "2026-11-05:promo_camila:store_emporio_flores",
+      "storeId": "store_emporio_flores",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_trevo",
+      "stopId": "2026-11-05:promo_camila:store_trevo",
+      "storeId": "store_trevo",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_super_ribeiro",
+      "stopId": "2026-11-05:promo_camila:store_super_ribeiro",
+      "storeId": "store_super_ribeiro",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_camila:store_hortifruti",
+      "stopId": "2026-11-05:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-05:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_henrique:store_estrela",
+      "stopId": "2026-11-05:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_henrique:store_margarida",
+      "stopId": "2026-11-05:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-05:promo_beatriz:store_km12",
+      "stopId": "2026-11-05:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-05",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-06:promo_camila:store_mini_nova",
+      "stopId": "2026-11-06:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-11-06",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-06:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-06:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-06",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-06:promo_beatriz:store_km12",
+      "stopId": "2026-11-06:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-06",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-09:promo_camila:store_mini_nova",
+      "stopId": "2026-11-09:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-11-09",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-09:promo_camila:store_serra_clara",
+      "stopId": "2026-11-09:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-11-09",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-09:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-09:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-09",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-09:promo_beatriz:store_km12",
+      "stopId": "2026-11-09:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-09",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-10:promo_camila:store_hortifruti",
+      "stopId": "2026-11-10:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-11-10",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-10:promo_henrique:store_estrela",
+      "stopId": "2026-11-10:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-10",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-11:promo_camila:store_padaria_aurora",
+      "stopId": "2026-11-11:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-11-11",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-11:promo_henrique:store_margarida",
+      "stopId": "2026-11-11:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-11",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_camila:store_serra_clara",
+      "stopId": "2026-11-12:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_camila:store_padaria_aurora",
+      "stopId": "2026-11-12:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_camila:store_trevo",
+      "stopId": "2026-11-12:promo_camila:store_trevo",
+      "storeId": "store_trevo",
+      "promoterId": "promo_camila",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_camila:store_super_ribeiro",
+      "stopId": "2026-11-12:promo_camila:store_super_ribeiro",
+      "storeId": "store_super_ribeiro",
+      "promoterId": "promo_camila",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_camila:store_hortifruti",
+      "stopId": "2026-11-12:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-12:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_henrique:store_estrela",
+      "stopId": "2026-11-12:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_henrique:store_margarida",
+      "stopId": "2026-11-12:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-12:promo_beatriz:store_km12",
+      "stopId": "2026-11-12:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-12",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-13:promo_camila:store_mini_nova",
+      "stopId": "2026-11-13:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-11-13",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-13:promo_henrique:store_atacado_porto",
+      "stopId": "2026-11-13:promo_henrique:store_atacado_porto",
+      "storeId": "store_atacado_porto",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-13",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-13:promo_beatriz:store_km12",
+      "stopId": "2026-11-13:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-13",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-16:promo_camila:store_mini_nova",
+      "stopId": "2026-11-16:promo_camila:store_mini_nova",
+      "storeId": "store_mini_nova",
+      "promoterId": "promo_camila",
+      "date": "2026-11-16",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-16:promo_camila:store_serra_clara",
+      "stopId": "2026-11-16:promo_camila:store_serra_clara",
+      "storeId": "store_serra_clara",
+      "promoterId": "promo_camila",
+      "date": "2026-11-16",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-16:promo_beatriz:store_km12",
+      "stopId": "2026-11-16:promo_beatriz:store_km12",
+      "storeId": "store_km12",
+      "promoterId": "promo_beatriz",
+      "date": "2026-11-16",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-17:promo_camila:store_hortifruti",
+      "stopId": "2026-11-17:promo_camila:store_hortifruti",
+      "storeId": "store_hortifruti",
+      "promoterId": "promo_camila",
+      "date": "2026-11-17",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-17:promo_henrique:store_estrela",
+      "stopId": "2026-11-17:promo_henrique:store_estrela",
+      "storeId": "store_estrela",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-17",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-18:promo_camila:store_padaria_aurora",
+      "stopId": "2026-11-18:promo_camila:store_padaria_aurora",
+      "storeId": "store_padaria_aurora",
+      "promoterId": "promo_camila",
+      "date": "2026-11-18",
+      "status": "completed"
+    },
+    {
+      "id": "vis_2026-11-18:promo_henrique:store_margarida",
+      "stopId": "2026-11-18:promo_henrique:store_margarida",
+      "storeId": "store_margarida",
+      "promoterId": "promo_henrique",
+      "date": "2026-11-18",
+      "status": "completed"
+    }
+  ]
+}

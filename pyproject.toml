@@ -1,0 +1,18 @@
+[project]
+name = "rota-clara"
+version = "1.0.0"
+description = "Fictional Vale Verde Dairy field-promoter portfolio"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["etl/tests"]
+pythonpath = ["etl"]
+
+[tool.ruff]
+line-length = 100
+src = ["etl", "scripts"]
+extend-exclude = ["node_modules", "dist", "shared/fixture.json"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
