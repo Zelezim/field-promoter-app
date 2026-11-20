@@ -1,0 +1,38 @@
+[
+  {
+    "name": "all-high",
+    "parts": {
+      "volume": 1,
+      "abc": 1,
+      "recency": 1,
+      "stockout": 1,
+      "keyAccount": 1,
+      "expiry": 1
+    },
+    "expected": 100
+  },
+  {
+    "name": "curve-c-only",
+    "parts": {
+      "volume": 0,
+      "abc": 0.3,
+      "recency": 0,
+      "stockout": 0,
+      "keyAccount": 0,
+      "expiry": 0
+    },
+    "expected": 6
+  },
+  {
+    "name": "mixed",
+    "parts": {
+      "volume": 1,
+      "abc": 0.6,
+      "recency": 0.5,
+      "stockout": 1,
+      "keyAccount": 0,
+      "expiry": 0.5
+    },
+    "expected": 69.5
+  }
+]

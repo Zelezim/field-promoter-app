@@ -1,0 +1,31 @@
+{
+  "name": "rota-clara",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fictional offline-first PWA for Vale Verde Dairy field promoters.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "eslint .",
+    "fixture": "python3 scripts/generate_fixture.py",
+    "fixture:check": "python3 scripts/generate_fixture.py --check",
+    "icons": "python3 scripts/make_icons.py",
+    "screenshots": "node scripts/capture-screenshots.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/outfit": "^5.3.0",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "playwright": "^1.65.1",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0"
+  }
+}
